@@ -72,6 +72,7 @@
 }
 
 .card-text-centr {
+    color: black;
     font-weight: 500;
 }
 
@@ -79,6 +80,7 @@
     border-radius: 20px;
     font-family: sans-serif;
     font-size: 20px;
+    border: none;
 }
 
 @keyframes glowing {
