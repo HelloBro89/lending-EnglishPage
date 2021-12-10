@@ -1,0 +1,109 @@
+.container {
+    background-color: red;
+}
+
+.butn {
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+
+.head {
+    background-color: grey;
+    font-family: cursive;
+    color: white;
+    font-size: large;
+}
+
+.butn-mr {
+    margin-left: 25px;
+}
+.colOverall:hover {
+    color: blue;
+}
+
+.col0 {
+    text-align: right;
+}
+
+.col1 {
+    text-align: left;
+    font-size: larger;
+}
+.col2 {
+    text-align: center;
+}
+
+.col5 {
+    text-align: center;
+}
+.logo {
+    width: 70px;
+}
+
+/*------------------------------------- BENEFIT ------------------------------*/
+
+.benefit {
+    background-image: url('../img/london.png');
+    /* background-color: aquamarine; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.body-cart {
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rosybrown; */
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.col-benefit-right {
+    text-align: center;
+}
+
+.col-benefit-left {
+    /* background-color: slateblue; */
+}
+
+.card-title {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-variant: 1; */
+    /* font-size: 50px; */
+}
+
+.card-text {
+    /* font-size: bold; */
+    font-weight: 500;
+}
+
+.btn-primary {
+    border-radius: 20px;
+    background-color: #1c87c9;
+    border-radius: 60px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #2ba805;
+        box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+        background-color: #49e819;
+        box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+        background-color: #2ba805;
+        box-shadow: 0 0 5px #2ba805;
+    }
+}
+
+.btn-primary {
+    animation: glowing 1300ms infinite;
+}
