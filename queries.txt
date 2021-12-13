@@ -1,35 +1,35 @@
 --            REQUESTS FOR TAKS CV
 
---            111111111111111
+--------------111111111111111
 
---select id, created_at, offer_id, comment_text from comments where user_id = 1
+select id, created_at, offer_id, comment_text from comments where user_id = 1
 
---            222222222222222
---select id, to_char(created_at, 'DD.MM.YYYY') created_at, user_id, offer_type, title, price, picture from offers
---where created_at between '2021-10-01' and '2021-10-31'
---order by created_at desc
-
-
---            333333333333333
---select id, email, created_at, CONCAT(first_name, ' ', last_name) AS "user_name" from users
---where id not in (select user_id FROM offers)
---order by created_at
+--------------222222222222222
+select id, to_char(created_at, 'DD.MM.YYYY') created_at, user_id, offer_type, title, price, picture from offers
+where created_at between '2021-10-01' and '2021-10-31'
+order by created_at desc
 
 
---            44444444444444
+-------------- 333333333333333
+select id, email, created_at, CONCAT(first_name, ' ', last_name) AS "user_name" from users
+where id not in (select user_id FROM offers)
+order by created_at
 
---SELECT offers.id, offers.title, offers.price, CONCAT(users.first_name, ' ', users.last_name) AS "user_name"
---from offers
---JOIN users on users.id = offers.user_id
---WHERE price = (
---   SELECT MAX (price)
---   FROM offers
---)
+
+---------------44444444444444
+
+SELECT offers.id, offers.title, offers.price, CONCAT(users.first_name, ' ', users.last_name) AS "user_name"
+from offers
+JOIN users on users.id = offers.user_id
+WHERE price = (
+   SELECT MAX (price)
+   FROM offers
+)
 
 
 --                  55555555555555
 
---select categories.id, categories.title, categories.slug, COUNT(*) AS offer_amount 
---from category_offer 
---join categories on category_offer.category_id = categories.id 
---group by categories.id
+select categories.id, categories.title, categories.slug, COUNT(*) AS offer_amount 
+from category_offer 
+join categories on category_offer.category_id = categories.id 
+group by categories.id
