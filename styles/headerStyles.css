@@ -101,3 +101,24 @@
 .btn-primary {
     animation: glowing 1300ms infinite;
 }
+/* ----------------------------------------------------MAIN CAROUSEL----------------------------------------- */
+
+.hd-crs {
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: bisque; */
+}
+
+.col-hd-crs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.span-hd-crs {
+    color: red;
+}
+
+.context-hd-crs {
+    font-weight: 500;
+    color: rgba(92, 86, 86, 0.568);
+}
