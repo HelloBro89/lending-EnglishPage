@@ -5,7 +5,7 @@
 }
 
 .head {
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     font-family: cursive;
     color: white;
     font-size: large;
@@ -120,9 +120,23 @@
     color: rgba(92, 86, 86, 0.568);
 }
 
-.carousel-indicators {
-    background-color: red;
+.test {
+    color: black;
+    background-color: rgb(99, 211, 211);
 }
 
-.card {
+.arrows {
+    text-align: center;
+    margin-top: 5px;
+    /* background-color: blue; */
+}
+
+/* .carousel-control-prev-icon {
+    background-color: red;
+} */
+
+.carousel-arrows {
+    border: none;
+    background-color: rgb(128, 128, 128);
+    border-radius: 14px;
 }
