@@ -43,7 +43,7 @@
 /*------------------------------------- BENEFIT ------------------------------*/
 
 .benefit {
-    background-image: url('../img/london.png');
+    background-image: url('/img/london.png');
     /* background-color: aquamarine; */
     background-repeat: no-repeat;
     background-size: cover;
