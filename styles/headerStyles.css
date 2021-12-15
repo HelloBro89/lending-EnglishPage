@@ -15,7 +15,7 @@
     margin-left: 25px;
 }
 .colOverall:hover {
-    color: blue;
+    color: rgba(0, 0, 255, 0.568);
 }
 
 .col0 {
@@ -40,23 +40,21 @@
 .bi {
     color: greenyellow;
 }
-/*------------------------------------- BENEFIT ------------------------------*/
+/*------------------------------------- HEADER MAIN ------------------------------*/
 
-.benefit {
+.hdr {
     background-image: url('/img/london.png');
-    /* background-color: aquamarine; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
 }
 
-.col-benefit-right {
+.col-hdr-right {
     text-align: center;
-    /* background-color: greenyellow; */
 }
 
-.col-benefit-left {
+.col-hdr-left {
     text-align: center;
 }
 
@@ -98,7 +96,15 @@
     animation: glowing 1300ms infinite;
 }
 
-/* ----------------------------------------------------MAIN CAROUSEL----------------------------------------- */
+/* ----------------------------------------------------MAIN COURSES----------------------------------------- */
+
+.card-carousesl-img {
+    height: 200px;
+}
+
+.card-style-text {
+    line-height: 1.2;
+}
 
 .hd-crs {
     text-align: center;
@@ -133,7 +139,7 @@
 }
 
 .carousel-arrows:hover {
-    background-color: #49e819;
+    background-color: rgba(0, 0, 255, 0.568);
 }
 
 .arrow-control-left {
@@ -155,11 +161,11 @@
 }
 
 .crd-crsl {
-    height: 500px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    max-width: 250px;
+    max-width: 230px;
     background-color: rgba(194, 180, 190, 0.26);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -171,6 +177,96 @@
 .but-crsl {
     position: absolute;
     margin-left: -82px;
+    padding-top: 2px;
     width: 170px;
-    bottom: 20px;
+    bottom: 10px;
+    border: none;
+    background-color: #e64545;
+}
+
+.but-crsl:hover {
+    background-color: rgba(0, 0, 255, 0.568);
+}
+/* ----------------------------------------------------MAIN BENEFITS----------------------------------------- */
+
+.cont-benefits {
+    background-image: url('/img/workIOnline.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.row-first-benefits {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.col-title {
+    overflow-wrap: break-word;
+}
+
+.span-benefits {
+    color: red;
+}
+
+.context-benefits {
+    font-size: 15px;
+    color: rgba(92, 86, 86, 0.767);
+}
+
+.block-one-benefits {
+    /* background-color: brown; */
+}
+
+.block-two-benefits {
+    margin-left: 40px;
+    /* background-color: burlywood; */
+}
+
+.block-three-benefits {
+    margin-left: 40px;
+    margin-top: 40px;
+    /* background-color: cornflowerblue; */
+}
+
+.block-one-benefits,
+.block-two-benefits,
+.block-three-benefits {
+    background-image: url('/img/BG.jpg');
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    max-width: 270px;
+    max-height: 270px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.block-one-benefits p {
+    margin-top: 10px;
+    line-height: 1.1;
+    font-size: 13px;
+}
+
+.block-two-benefits p {
+    margin-top: 10px;
+    line-height: 1.1;
+    font-size: 13px;
+}
+.block-three-benefits p {
+    margin-top: 10px;
+    line-height: 1.2;
+    font-size: 13px;
+}
+
+.test {
+    /* background-color: crimson; */
 }
