@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
 .butn {
     background-color: transparent;
     color: white;
@@ -195,7 +198,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    /* height: 600px; */
     margin-top: 20px;
 }
 
@@ -208,6 +211,7 @@
 
 .col-title {
     overflow-wrap: break-word;
+    margin-top: 50px;
 }
 
 .span-benefits {
@@ -219,19 +223,13 @@
     color: rgba(92, 86, 86, 0.767);
 }
 
-.block-one-benefits {
-    /* background-color: brown; */
-}
-
 .block-two-benefits {
     margin-left: 40px;
-    /* background-color: burlywood; */
 }
 
 .block-three-benefits {
     margin-left: 40px;
     margin-top: 40px;
-    /* background-color: cornflowerblue; */
 }
 
 .block-one-benefits,
@@ -249,6 +247,7 @@
     padding: 20px 20px 20px 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
+    box-shadow: 0 0 10px rgba(214, 148, 6, 0.829);
 }
 
 .block-one-benefits p {
@@ -266,6 +265,68 @@
     margin-top: 10px;
     line-height: 1.2;
     font-size: 13px;
+}
+
+/* ----------------------------------------------------MAIN TEACHERS----------------------------------------- */
+
+.btn-teacher-left,
+.btn-teacher-right,
+.btn-show-more {
+    margin-top: 20px;
+    color: red;
+    border-width: 2.5px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.btn-teacher-left:hover,
+.btn-teacher-right:hover,
+.btn-show-more:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-teacher-left {
+    margin-right: 20px;
+}
+
+.btn-teacher-right {
+    margin-left: 20px;
+}
+
+.img-teachers {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.row-list-teachers {
+    margin-top: 50px;
+}
+
+.card-teachers {
+    border-radius: 10px;
+    margin: 20px 5px auto 5px;
+    box-shadow: 0 0 10px rgba(194, 183, 183, 0.5);
+}
+
+.card-teachers p {
+    margin-top: 20px;
+    line-height: 0.4;
+}
+
+.img-play {
+    border: none;
+    width: 20px;
+}
+
+.video-link {
+    color: red;
+}
+
+.video-link:hover {
+    color: blue;
 }
 
 .test {
