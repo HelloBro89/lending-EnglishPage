@@ -132,6 +132,10 @@
     border-radius: 14px;
 }
 
+.carousel-arrows:hover {
+    background-color: #49e819;
+}
+
 .arrow-control-left {
     background-image: url('/img/left-arrow.png');
     width: 30px;
@@ -157,15 +161,16 @@
     border-radius: 20px;
     max-width: 250px;
     background-color: rgba(194, 180, 190, 0.26);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary {
     border-radius: 15px;
 }
 
-.test {
+.but-crsl {
     position: absolute;
     margin-left: -82px;
     width: 170px;
-    bottom: 10px;
+    bottom: 20px;
 }
