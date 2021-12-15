@@ -128,23 +128,44 @@
 .carousel-arrows {
     padding-top: 6px;
     border: none;
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.63);
     border-radius: 14px;
 }
 
-.test {
-    /* min-width: 200px; */
-    /* display: flex; */
-    /* flex-direction: ; */
+.arrow-control-left {
+    background-image: url('/img/left-arrow.png');
+    width: 30px;
+}
+
+.arrow-control-right {
+    background-image: url('/img/right-arrow.png');
+    width: 30px;
 }
 
 #carouselExampleControls {
     margin-top: 30px;
 }
 .col-crsl {
+    text-align: center;
+    max-width: 350px;
 }
 
 .crd-crsl {
-    text-align: center;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
+    max-width: 250px;
+    background-color: rgba(194, 180, 190, 0.26);
+}
+
+.btn-primary {
+    border-radius: 15px;
+}
+
+.test {
+    position: absolute;
+    margin-left: -82px;
+    width: 170px;
+    bottom: 10px;
 }
