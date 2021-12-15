@@ -103,13 +103,12 @@
 }
 
 .card-style-text {
-    line-height: 1.2;
+    line-height: 1;
 }
 
 .hd-crs {
     text-align: center;
     margin-top: 20px;
-    /* background-color: bisque; */
 }
 
 .col-hd-crs {
@@ -156,14 +155,16 @@
     margin-top: 30px;
 }
 .col-crsl {
-    text-align: center;
+    min-height: 420px;
     max-width: 350px;
+    text-align: center;
 }
 
 .crd-crsl {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 6px;
     border-radius: 20px;
     max-width: 230px;
     background-color: rgba(194, 180, 190, 0.26);
