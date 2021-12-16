@@ -328,3 +328,38 @@ body {
 .video-link:hover {
     color: blue;
 }
+
+/* ----------------------------------------------------FORM----------------------------------------- */
+
+.form-container {
+    background-image: url('/img/question.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position: left 40px top; */
+}
+
+.form {
+    background-color: rgba(63, 60, 60, 0.226);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.block-btn {
+    text-align: center;
+}
+
+.btn-form {
+    background-color: rgba(49, 15, 15, 0.699);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+.btn-form:hover {
+    background-color: black;
+}
