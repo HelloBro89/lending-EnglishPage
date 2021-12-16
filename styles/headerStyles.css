@@ -72,6 +72,18 @@ body {
     color: black;
     font-weight: 500;
 }
+.calANDclock {
+    overflow: hidden;
+}
+
+.clockCalendar-img {
+    max-width: 50px;
+}
+
+.clock-text {
+    font-weight: 500;
+    color: rgb(78, 73, 73);
+}
 
 .btn-hd {
     border-radius: 20px;
@@ -362,4 +374,38 @@ body {
 }
 .btn-form:hover {
     background-color: black;
+}
+
+/* ----------------------------------------------------FOOTER----------------------------------------- */
+/* font-size: large;
+font-family: cursive; */
+.foot {
+    background-color: rgb(128, 128, 128);
+    height: 150px;
+    width: 250vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ft-rw {
+    font-family: cursive;
+    font-size: large;
+}
+
+.colFtThree {
+    color: black;
+}
+
+.colFtThree:hover,
+.colFtFour:hover {
+    color: white;
+}
+
+.about {
+    text-align: left;
+    color: black;
+}
+
+.colFtFour {
+    color: black;
 }
