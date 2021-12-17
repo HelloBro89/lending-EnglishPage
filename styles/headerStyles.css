@@ -223,12 +223,13 @@ body {
 
 .but-crsl {
     position: absolute;
-    margin-left: -82px;
+    margin-left: -74px;
     padding-top: 2px;
     width: 170px;
     bottom: 10px;
     border: none;
     background-color: #e64545;
+    max-width: 150px;
 }
 
 .but-crsl:hover {
