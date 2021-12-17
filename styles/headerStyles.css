@@ -1,3 +1,35 @@
+.main-modal-btn {
+    position: fixed;
+    margin: auto auto 100px auto;
+    /* left: 0; */
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    width: 200px;
+    height: 110px;
+    animation: glowing 1300ms infinite;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+    max-width: 140px;
+    font-family: cursive;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: hsl(34, 79%, 45%);
+        box-shadow: 0 0 5px hsl(34, 79%, 45%);
+    }
+    50% {
+        background-color: hsl(34, 60%, 60%);
+        box-shadow: 0 0 20px hsl(34, 60%, 60%);
+    }
+    100% {
+        background-color: hsl(34, 79%, 45%);
+        box-shadow: 0 0 5px hsl(34, 79%, 45%);
+    }
+}
+
 body {
     background-color: rgb(236, 236, 236);
 }
@@ -92,23 +124,23 @@ body {
     border: none;
 }
 
-@keyframes glowing {
+@keyframes glowingOne {
     0% {
-        background-color: #2ba805;
-        box-shadow: 0 0 5px #2ba805;
+        background-color: hsl(106, 94%, 34%);
+        box-shadow: 0 0 5px hsl(106, 94%, 34%);
     }
     50% {
-        background-color: #49e819;
-        box-shadow: 0 0 20px #49e819;
+        background-color: hsl(106, 82%, 50%);
+        box-shadow: 0 0 20px hsl(106, 82%, 50%);
     }
     100% {
-        background-color: #2ba805;
-        box-shadow: 0 0 5px #2ba805;
+        background-color: hsl(106, 94%, 34%);
+        box-shadow: 0 0 5px hsl(106, 94%, 34%);
     }
 }
 
 .btn-hd {
-    animation: glowing 1300ms infinite;
+    animation: glowingOne 1300ms infinite;
 }
 
 /* ----------------------------------------------------MAIN COURSES----------------------------------------- */
@@ -408,4 +440,27 @@ font-family: cursive; */
 
 .colFtFour {
     color: black;
+}
+
+/* ---------------------------------------------------МОДАЛЬНО ОКНО---------------------- */
+
+.modal-dialog {
+    max-width: 450px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: rgb(27, 90, 51);
+    color: white;
+}
+
+.btnSubscribe {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.btnClose {
+    color: white;
+    background-color: black;
 }

@@ -14,6 +14,53 @@
         <link rel="stylesheet" href="/styles/headerStyles.css" />
     </head>
     <body>
+        <!-- ----------------------------------------------------МОДАЛЬНО ОКНО---------------------->
+        <button type="button" class="main-modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Подпишись на наши обновления
+        </button>
+
+        <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Получи бесплатно свежие новости о наших курсах</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- ----------------------------------------------------НАЧАЛО МОДАЛЬНОЙ ФОРМЫ---------------------->
+                        <form action="">
+                            <div>
+                                <label for="inputEmail">Ваш email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputName">Ваше имя</label>
+                                <input type="name" class="form-control" id="inputName" placeholder="Имя" />
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label class="form-check-label" for="flexCheckDefault"> Высылать новости каждый день </label>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btnSubscribe btn">Подписаться</button>
+                                <button type="button" class="btnClose btn" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </form>
+                        <!-- ----------------------------------------------------КОНЕЦ МОДАЛЬНОЙ ФОРМЫ---------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------КОНЕЦ МОДАЛЬНОГО ОКНА-------------------- -->
+
         <header>
             <div class="container-fluid">
                 <div class="row head menu align-items-center">
@@ -59,11 +106,14 @@
                                     Разговорная практика с опытным <br />
                                     учителем с первого занятия
                                 </p>
-                                <div  class="calANDclock d-flex justify-content-center">
-                                    <img  src="/img/clock.png" class="clockCalendar-img" alt="" srcset="" />
-                                    <div class="clock-text mr-3">Удобное </br> время</div>
-                                    <img style="margin-left: 15px;" src="/img/calendar.png" class="clockCalendar-img" alt="" srcset="" />
-                                    <div class="clock-text" style=" margin-left: 10px;">Гибкий </br>график</div>
+                                <div class="calANDclock d-flex justify-content-center">
+                                    <img src="/img/clock.png" class="clockCalendar-img" alt="" srcset="" />
+                                    <div class="clock-text mr-3">
+                                        Удобное <br />
+                                        время
+                                    </div>
+                                    <img style="margin-left: 15px" src="/img/calendar.png" class="clockCalendar-img" alt="" srcset="" />
+                                    <div class="clock-text" style="margin-left: 10px">Гибкий <br />график</div>
                                 </div>
                                 <a href="#" class="btn btn-primary btn-hd mt-4">Пробовать бесплатно </a>
                             </div>
