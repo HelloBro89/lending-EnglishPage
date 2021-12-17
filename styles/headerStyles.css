@@ -78,7 +78,7 @@ body {
 /*------------------------------------- HEADER MAIN ------------------------------*/
 
 .hdr {
-    background-image: url('/img/london.png');
+    background-image: url('../img/london.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,12 +190,12 @@ body {
 }
 
 .arrow-control-left {
-    background-image: url('/img/left-arrow.png');
+    background-image: url('../img/left-arrow.png');
     width: 30px;
 }
 
 .arrow-control-right {
-    background-image: url('/img/right-arrow.png');
+    background-image: url('../img/right-arrow.png');
     width: 30px;
 }
 
@@ -239,7 +239,7 @@ body {
 /* ----------------------------------------------------MAIN BENEFITS----------------------------------------- */
 
 .cont-benefits {
-    background-image: url('/img/workIOnline.png');
+    background-image: url('../img/workIOnline.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,7 +280,7 @@ body {
 .block-one-benefits,
 .block-two-benefits,
 .block-three-benefits {
-    background-image: url('/img/BG.jpg');
+    background-image: url('../img/BG.jpg');
     border-radius: 10px;
     margin-top: 30px;
     color: white;
@@ -377,11 +377,10 @@ body {
 /* ----------------------------------------------------FORM----------------------------------------- */
 
 .form-container {
-    background-image: url('/img/question.jpg');
+    background-image: url('../img/question.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-position: left 40px top; */
 }
 
 .form {
